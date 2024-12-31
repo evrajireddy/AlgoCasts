@@ -8,7 +8,10 @@
 //     q.add(1);
 //     q.remove(); // returns 1;
 
-class Queue {
+
+
+class Queue{
+    
 
     constructor(){
         this.data = [];
@@ -26,5 +29,9 @@ class Queue {
 
 }
 
+const q = new Queue();
 
-module.exports = Queue;
+console.log(q.add(1));
+console.log(q.remove()); // returns 1;
+
+
